@@ -6,6 +6,8 @@ import { Service, Employee } from './app.service';
 
 import DataSource from 'devextreme/data/data_source';
 
+import { locale } from 'devextreme/localization';
+locale('en-GB');
 
 @Component({
     selector: 'demo-app',
